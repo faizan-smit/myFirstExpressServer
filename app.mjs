@@ -105,7 +105,7 @@ app.get('/', (req, res) => {
     <div class="d-flex text-white justify-content-end secondDiv forTop">
     <h6 class="bottomright">
 
-        Server accessed at ${currentDate}
+        Server accessed at ${new Date().toLocaleString()}
 
     </h6>
     </div>
