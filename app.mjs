@@ -70,7 +70,7 @@ app.get('/', (req, res) => {
     
     
     
-        <h2>My Express Server</h2>
+        <h2>Faizan's Express Server</h2>
 
         <br>
         
@@ -99,6 +99,13 @@ app.get('/', (req, res) => {
     <h6 class="bottomright">
 
         Server accessed at ${currentDate}
+
+    </h6>
+    </div>
+     <div class="d-flex text-white justify-content-end secondDiv">
+    <h6 class="bottomright">
+
+        Copyrights &copy; &nbsp; Muhammad Faizan Alam
 
     </h6>
     </div>
