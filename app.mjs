@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 const port = 3000
 
-const theDate = new Date()
+let theDate = new Date()
 let currentDate  = theDate.toLocaleString()
 
 app.get('/', (req, res) => {
