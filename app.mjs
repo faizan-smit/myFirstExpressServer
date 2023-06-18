@@ -86,7 +86,7 @@ app.get('/', (req, res) => {
 
         <h5 class="text-center">
 
-            Hello
+            Hello!
             <br>
             Welcome to my server
 
