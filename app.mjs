@@ -59,6 +59,8 @@ app.get('/', (req, res) => {
 
             position: relative;
             top: -25px;
+            right: 10px;
+
         
         }
 
