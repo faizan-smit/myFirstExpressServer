@@ -55,6 +55,13 @@ app.get('/', (req, res) => {
 
         }
 
+        .forTop{
+
+            position: relative;
+            top: -25px;
+        
+        }
+
 
     </style>
 
@@ -95,7 +102,7 @@ app.get('/', (req, res) => {
 
 
 
-    <div class="d-flex text-white justify-content-end secondDiv">
+    <div class="d-flex text-white justify-content-end secondDiv forTop">
     <h6 class="bottomright">
 
         Server accessed at ${currentDate}
